@@ -1,0 +1,27 @@
+{
+    "name": "airist/php-composer",
+    "description": "Belajar PHP Composer PGZ",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Airist\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AiristEsp",
+            "email": "eairist@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+        "type" : "vcs",
+        "url": "https://github.com/AiristEsp/belajar_php_composer"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "2.2.0",
+        "php" : ">=8.0",
+        "airist4/php_library":"2.0.0"
+    }
+}
