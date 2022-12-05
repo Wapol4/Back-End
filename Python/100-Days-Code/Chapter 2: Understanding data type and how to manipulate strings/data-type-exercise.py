@@ -1,0 +1,5 @@
+two_digit_numbers = input("Type a two digit number: ")
+print(type(two_digit_numbers))
+# print(two_digit_numbers[0])
+# print(two_digit_numbers[1])
+print(int(two_digit_numbers[0]) + int(two_digit_numbers[1]))
