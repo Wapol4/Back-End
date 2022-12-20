@@ -13,5 +13,5 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
-!bwa-assets
-!bwa-html
+/!bwa-assets
+/!bwa-html
