@@ -9,3 +9,5 @@
     Camp Benefits
     // Create model and migration
     - php artisan make:model CampBenefit -m
+    // Rollback
+    - php artisan migrate:rollback
