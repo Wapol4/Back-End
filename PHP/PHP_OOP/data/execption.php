@@ -1,6 +1,6 @@
 <?php 
 
-    require_once "ex"
+    require_once "ex";
 
     class ValidationError extends Exception 
     {
