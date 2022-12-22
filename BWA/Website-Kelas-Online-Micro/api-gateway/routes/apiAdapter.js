@@ -1,4 +1,4 @@
-const axios =  require('axios');
+const axios =  require('../../../WebsiteTravel[CI-CD]/node_modules/axios');
 
 const { TIMEOUT } = process.env;
 
