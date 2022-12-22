@@ -5,3 +5,7 @@
     - cd api-gateway
     - npm install
     - npm start
+3. Install dotenv untuk setting environtment
+    - sudo npm install dotenv --save
+4. Install axios
+    - sudo npm install axios --save
