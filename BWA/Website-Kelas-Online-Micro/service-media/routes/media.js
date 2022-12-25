@@ -8,21 +8,21 @@ const { Media } = require('../models');
 
 const { HOSTNAME } = process.env;
 
-// router.get('/', async(req, res) => {
-//   const media = await Media.findAll({
-//     attributes: ['id', 'image']
-//   });
+router.get('/', async(req, res) => {
+  const media = await Media.findAll({
+    attributes: ['id', 'image']
+  });
 
-//   const mappedMedia = media.map((m) => {
-//     m.image = `${HOSTNAME}/${m.image}`;
-//     return m;
-//   })
+  const mappedMedia = media.map((m) => {
+    m.image = `${HOSTNAME}/${m.image}`;
+    return m;
+  })
 
-//   return res.json({
-//     status: 'success',
-//     data: mappedMedia
-//   });
-// });
+  return res.json({
+    status: 'success',
+    data: mappedMedia
+  });
+});
 
 router.post('/', (req, res) => {
   const image = req.body.image;
